@@ -1,0 +1,8 @@
+konsumsi_liter_perputaran = 15
+bahan_bakar = int(input("Masukkan jumlah liter: "))
+nilai_putaran = 0
+while(bahan_bakar >= konsumsi_liter_perputaran):
+    bahan_bakar -= konsumsi_liter_perputaran
+    nilai_putaran += 1
+hasil_putaran_mobil = nilai_putaran 
+print("Hasil putaran mobil: ", hasil_putaran_mobil)
